@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ES3lf7CkUT+q7Ai9/RZm2rnSMi0njcgN5T6nNczz3I1NkTjCDggJBFQjHL1gLMxgVXHrS65bbRbiuCwtBBw0UA==",
+  "success": true,
+  "projectFilePath": "/home/mateus/VSCode/Github/treinamento/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/home/mateus/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
