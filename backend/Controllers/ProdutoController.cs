@@ -18,6 +18,14 @@ namespace backend.Controllers
         };
 
         private readonly ILogger<ProdutoController> _logger;
+        private IEnumerable<Produto> _produto = Enumerable.Range(1, 5).Select(index => new Produto
+            {
+                id = index,
+                nome = "Produto " + index.ToString(),
+                descricao = "Descrição do Produto " + index.ToString(),
+                valor = 100 + index
+            })
+            .ToArray();
 
         public ProdutoController(ILogger<ProdutoController> logger)
         {
@@ -27,15 +35,13 @@ namespace backend.Controllers
         [HttpGet]
         public IEnumerable<Produto> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new Produto
-            {
-                id = index,
-                nome = "Produto " + index.ToString(),
-                descricao = "Descrição do Produto " + index.ToString(),
-                valor = 100 + index
-            })
-            .ToArray();
+            return _produto;
+        }
+
+        [HttpPost]
+        public Produto Post(Produto produto)
+        {            
+            return produto;
         }
     }
 }
